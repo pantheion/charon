@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "300039615c5984de5a5a8a238dee89f8",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "pantheion/exception",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pantheion/exception.git",
+                "reference": "c49a7ff6d2b0bd1231cbd6223c052bdb665fa0a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pantheion/exception/zipball/c49a7ff6d2b0bd1231cbd6223c052bdb665fa0a0",
+                "reference": "c49a7ff6d2b0bd1231cbd6223c052bdb665fa0a0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pantheion\\Exception\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pedro Miguel",
+                    "email": "pedro.aos19@gmail.com"
+                }
+            ],
+            "description": "Exception and Error",
+            "time": "2020-06-05T18:48:10+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "pantheion/exception": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
